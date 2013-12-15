@@ -1,0 +1,19 @@
+{
+  "name": "ember-sa",
+  "version": "0.0.0",
+  "description": "```js register('foo:bar', Baz); inject('foo:bar', 'propertyName', 'foo:baz') needs: 'foo' modelFor('bar') controllerFor('bar') lookup('foo:bar') ```",
+  "main": "asdf.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "estraverse": "git://github.com/Constellation/estraverse",
+    "esprima": "git://github.com/ariya/esprima#harmony",
+    "cli-table": "~0.2.0"
+  }
+}
